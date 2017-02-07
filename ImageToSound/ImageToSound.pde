@@ -27,7 +27,6 @@ void setup()
   }
   // start webcam
   cam = new Capture(this, cameras[14]);
-  // Comment the following line if you use Processing 1.5
   cam.start();
 
   // BlobDetection
