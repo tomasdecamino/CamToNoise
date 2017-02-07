@@ -25,7 +25,7 @@ void setup()
   for (int i = 0; i < cameras.length; i++) {
     println(i+" "+cameras[i]);
   }
-  // start webcam
+  // start webcam change to wahtever webcam you want to use from the list
   cam = new Capture(this, cameras[14]);
   cam.start();
 
